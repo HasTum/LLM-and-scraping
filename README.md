@@ -1,4 +1,4 @@
-Overview
+Overview:
 This project includes a set of tools for scraping, cleaning, visualizing, and analyzing job listings from Indeed, as well as an LLM-powered recommendation system that suggests job titles based on user-provided skills. The project is built in Python and works with a CSV file containing job data.
 Project Structure
 app_LLM.py: This script leverages a Large Language Model (LLM) to:
@@ -17,7 +17,7 @@ company_rating: The company's rating (if available).
 description: A detailed description of the job.
 Visualizations: Code for generating visual representations of the job data (e.g., salary distributions, company ratings, job frequency by title, etc.).
 
-Features
+Features:
 Job Filtering:
 
 Enter a skill or set of skills, and the system will recommend relevant job listings based on those skills.
