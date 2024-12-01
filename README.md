@@ -1,8 +1,11 @@
 **Job Listings Analysis and LLM-Powered Recommendation System**
+
 **Overview:**
+
 This project provides a comprehensive suite of tools for collecting, cleaning, analyzing, and visualizing job listings from Indeed, coupled with an advanced LLM-based recommendation system. The recommendation system filters job listings by extracting skills from job descriptions and matching them with user-provided skills. The project is implemented in Python and operates on a CSV dataset containing job-related information.
 
 **Project Structure:**
+
 The project directory is organized as follows:
 
 app_LLM.py:
@@ -26,12 +29,15 @@ company_rating: Rating of the company (if available).
 description: Detailed job description.
 
 **Visualizations Code:**
+
 Scripts for generating data visualizations such as:
 
 Salary distribution plots.
 Company rating histograms.
 Job frequency by title, skill, and location.
+
 **Features:**
+
 **1. Job Filtering:**
 Users can input a skill or a set of skills.
 The program matches user-provided skills against skills extracted from job descriptions.
@@ -52,6 +58,7 @@ Job Frequencies: Analyzes the frequency of job titles and skills across listings
 Additional visualizations can be generated based on available data.
 
 **Getting Started:**
+
 Clone the Repository:
 
 Clone the project repository to your local system.
@@ -69,6 +76,7 @@ Run the LLM-based Recommendation System:
 Launch app_LLM.py to filter and recommend jobs based on input skills or LLM suggestions.
 
 **Future Enhancements and Suggestions:**
+
 Integration with Airflow:
 
 Automate the scraping, cleaning, and analysis workflows using Apache Airflow for scheduling and dependency management.
@@ -86,6 +94,7 @@ Advanced LLM Features:
 Incorporate advanced LLM capabilities to generate cover letter drafts tailored to recommended jobs.
 
 **Conclusion:**
+
 This project streamlines the process of analyzing and finding suitable job listings by combining robust data scraping, cleaning techniques, and the power of LLMs. The visualizations provide meaningful insights, while the recommendation system enhances user experience by aligning job opportunities with individual skill sets.
 
 
